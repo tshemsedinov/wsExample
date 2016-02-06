@@ -1,0 +1,35 @@
+{
+  "name": "wsExample",
+  "version": "0.1.0",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "description": "Websocket Server Example for Impress Application Server",
+  "license": "MIT",
+  "keywords": [
+    "server",
+    "api",
+    "rpc",
+    "websocket",
+    "websockets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshemsedinov/wsExample"
+  },
+  "bugs": {
+    "url": "https://github.com/tshemsedinov/wsExample/issues",
+    "email": "timur.shemsedinov@gmail.com"
+  },
+  "dependencies": {
+    "impress": "0.1.x"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "readmeFilename": "README.md",
+  "jshintConfig": {
+    "predef": ["api", "impress", "global", "window", "navigator", "document", "frames", "escape", "localStorage", "WebSocket", "XMLHttpRequest", "EventSource"],
+    "node": true,
+    "indent": 2,
+    "maxcomplexity": 25
+  }
+}
